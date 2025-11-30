@@ -5,7 +5,7 @@
 
 ---
 
-## 📊 Comparison with Other Tools
+## 📊 Comparison with Other Tools for AC/DC only
 
 | Feature | GHŘĪFĒŤ Protocol | BloodHound | CrackMapExec | Impacket | Metasploit |
 |--------|------------------|------------|--------------|----------|------------|
