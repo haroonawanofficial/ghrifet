@@ -1,6 +1,5 @@
 # GHŘĪFĒŤ - AD/DC Domination Framework  
-گرافیٹ پروٹوکول - مکمل AD/DC کنٹرول فریم ورک
-
+ AD/DC کنٹرول فریم ورک
 > Zero-visibility, RFC-breaking, enterprise-grade AD/DC assault framework that goes beyond traditional tools with real, working exploitation techniques.
 
 ---
