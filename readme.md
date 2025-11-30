@@ -32,47 +32,46 @@
 - Detect services across network boundaries
 🔥 Real Exploitation (Not Just Mapping)
 ```
-```python
-Copy code
+
 # While BloodHound maps paths, GHŘĪFĒŤ exploits them:
+```python
 - Real SMB relay attacks
 - Actual password spraying
 - Live vulnerability exploitation
 - Working persistence mechanisms
-🎯 Firewall Evasion
 ```
+
+# Firewall Evasion - Techniques that bypass network segmentation:
 ```python
-Copy code
-# Techniques that bypass network segmentation:
 - DNS cache snooping
 - LLMNR/NBT-NS poisoning across segments
 - ICMP covert channels
 - Protocol anomaly detection
 ```
 
+# Installation & Usage
 ```bash
-Installation & Usage
 Prerequisites
 pip3 install scapy requests cryptography dnspython pycryptodome
 pip3 install ldap3 impacket paramiko   # optional
 ```
 
+# Basic Usage
 ```bash
-Basic Usage
 python3 ghriet_protocol.py
 python3 ghriet_protocol.py -d company.com
 python3 ghriet_protocol.py --stealth
 ```
 
+# Advanced Usage
 ```bash
-Advanced Usage
 python3 ghriet_protocol.py -t 10.1.1.0/24 -d corp.local
 python3 ghriet_protocol.py --dc 10.1.1.10,10.1.1.11
 python3 ghriet_protocol.py -o detailed_report.json --format json
 ```
 
+#  Output Analysis
 ```bash
-Sample Output Analysis
 # DISCOVERED VIA DNS (No Direct Access):
 [GHŘĪFĒŤ] DNS A Record -> dc01.corp.local -> 10.1.1.10
 [GHŘĪFĒŤ] DNS SRV -> _ldap._tcp.dc._msdcs.corp.local -> dc01:389
@@ -86,8 +85,8 @@ Sample Output Analysis
 [GHŘĪFĒŤ] ZeroLogon Potential -> 10.1.1.10
 ```
 
+# Use Cases
 ```bash
-Use Cases
 1. External Penetration Testing
 
 # From untrusted network to DMZ to Internal AD:
@@ -111,8 +110,8 @@ Use Cases
 - Assess monitoring coverage
 ```
 
+# Technical Features
 ```bash
-Technical Features
 Network Discovery
 ARP-based discovery
 ICMP sweeping
@@ -137,10 +136,9 @@ Scheduled tasks
 Service manipulation
 ```
 
-```bash
-Defensive Evasion
-Stealth Techniques
+# Stealth Techniques
 
+```bash
 # Traffic Mimicry
 - Blends with normal traffic
 - Standard ports & protocols
@@ -157,8 +155,8 @@ Stealth Techniques
 - DNS tunneling C2
 ```
 
+# Performance Metrics
 ```bash
-Performance Metrics
 Operation	GHŘĪFĒŤ	BloodHound	CrackMapExec
 Network Discovery	45s	N/A	120s
 AD Mapping	12s	30s	180s
